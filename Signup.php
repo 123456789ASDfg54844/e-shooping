@@ -68,7 +68,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['register'])) {
 
         <form action="signup.php" method="POST">
             <div class="mb-3">
-                <label for="username" class="form-label">Name</label>
+                <label for="username" class="form-label">userName</label>
                 <input type="text" name="username" class="form-control" required>
             </div>
 
